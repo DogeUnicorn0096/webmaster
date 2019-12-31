@@ -4,3 +4,6 @@ spring:
     username: root
     url: jdbc:mysql:///openapi?useUnicode=true&characterEncoding=utf8
     type: com.alibaba.druid.pool.DruidDataSource
+  rabbitmq:
+    host: rabbitmq.qfjava.cn
+    port: 8800
